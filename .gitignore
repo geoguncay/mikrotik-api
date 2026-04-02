@@ -1,0 +1,205 @@
+# Entorno Virtual
+venv/
+env/
+ENV/
+.venv/
+virtualenv/
+.env
+.env.local
+.env.*.local
+
+# Archivos de configuración local
+.env.development
+.env.test
+.env.production
+.env.*.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.code-workspace
+.atom/
+
+# Pycharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.pycharm_helpers/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.env.vscode
+
+# Vim
+.vim/
+*.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Base de datos
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.egg-info
+
+# Archivos temporales
+*.tmp
+*.temp
+.tmp/
+*.log
+logs/
+*.ldb
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Node (si el proyecto usa npm también)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Directorio de datos y backups
+data/
+backups/
+backup/
+*.backup
+*.bak
+
+# Archivos compilados de Cython
+*.so
+*.pyd
+
+# Distribuciones
+dist/
+build/
+
+# Documentación generada
+docs/_build/
+site/
+
+# Archivos de sistema operativo
+*.swp
+*.swo
+*~
+.~*
+
+# macOS específico
+.AppleDouble
+.LSOverride
+._*
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows específico
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Sincronización de nube (OneDrive, Google Drive, etc.)
+~$*.xlsx
+~$*.docx
+
+# IDE plugins
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de bloqueo
+.lock
+*.lock
+
+# Directorio de cache
+.cache/
+.ruff_cache/
+__pycache__/
+
+# Archivos de output
+*.out
+output/
+results/
+report/
+
+# Archivos temporales del sistema
+tmp/
+temp/
+.temp/
+
+# Config privado
+config.local.py
+config.private.py
+secrets.py
+credentials.json
+private_key.pem

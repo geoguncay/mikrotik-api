@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+routeros-api
+sqlalchemy
+cryptography
+jinja2
+apscheduler
+python-multipart
+python-dotenv
